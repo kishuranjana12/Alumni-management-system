@@ -1,0 +1,127 @@
+
+@charset "utf-8";
+
+/* Alumni Connect - Registration Page */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.register_wrapper {
+    background: linear-gradient(135deg, #0b1729 0%, #142B4A 55%, #203e63 100%);
+    min-height: 100vh;
+    width: 100%;
+    padding: 25px 15px;
+    overflow: auto;
+}
+
+.register_container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px 30px;
+    text-align: center;
+    background: rgba(8, 21, 39, 0.90);
+    border: 1px solid #D9AD5B;
+    border-radius: 16px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+.register_container h1 {
+    font-size: 36px;
+    color: #D9AD5B;
+    margin: 5px 0 22px;
+    font-weight: 600;
+}
+
+.register_form {
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.register_form select,
+.register_form input {
+    outline: none;
+    border: 1px solid #D9AD5B;
+    background: #ffffff;
+    width: 100%;
+    max-width: 340px;
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 0 auto 13px;
+    display: block;
+    font-size: 16px;
+    color: #142B4A;
+    font-weight: 400;
+    transition: 0.25s;
+}
+
+.register_form select {
+    cursor: pointer;
+}
+
+.register_form input {
+    text-align: left;
+}
+
+.register_form input::placeholder {
+    color: #65758a;
+}
+
+.register_form input:focus,
+.register_form select:focus {
+    border-color: #D9AD5B;
+    box-shadow: 0 0 0 3px rgba(217, 173, 91, 0.2);
+}
+
+.register_form button {
+    outline: none;
+    background-color: #D9AD5B;
+    border: 1px solid #D9AD5B;
+    padding: 13px 18px;
+    color: #142B4A;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 340px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.register_form button:hover {
+    background-color: #f0cc82;
+    border-color: #f0cc82;
+    transform: translateY(-2px);
+}
+
+.register_form a {
+    color: #D9AD5B;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.register_form a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .register_container {
+        padding: 22px 18px;
+    }
+
+    .register_container h1 {
+        font-size: 29px;
+    }
+}

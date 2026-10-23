@@ -1,0 +1,167 @@
+
+@charset "utf-8";
+
+/* Alumni Connect - Navy Blue & Gold Theme */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.login_wrapper {
+    background: linear-gradient(135deg, #0b1729 0%, #142B4A 55%, #203e63 100%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 16px;
+    overflow: auto;
+}
+
+.login_container {
+    width: 100%;
+    max-width: 460px;
+    margin: 0 auto;
+    padding: 38px 32px;
+    min-height: auto;
+    height: auto;
+    text-align: center;
+    background: rgba(8, 21, 39, 0.88);
+    border: 1px solid #D9AD5B;
+    border-radius: 18px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.35);
+}
+
+.login_container h1 {
+    font-size: 36px;
+    color: #D9AD5B;
+    margin: 0 0 12px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.login_form {
+    padding: 20px 0 0;
+    position: relative;
+    z-index: 2;
+}
+
+.login_form select,
+.login_form input {
+    outline: none;
+    border: 1px solid rgba(217, 173, 91, 0.65);
+    background: #ffffff;
+    width: 100%;
+    max-width: 340px;
+    border-radius: 8px;
+    padding: 13px 15px;
+    margin: 0 auto 15px;
+    display: block;
+    font-size: 16px;
+    color: #142B4A;
+    font-weight: 400;
+    transition: 0.25s;
+}
+
+.login_form select {
+    cursor: pointer;
+}
+
+.login_form input {
+    text-align: left;
+}
+
+.login_form input:focus,
+.login_form select:focus {
+    border-color: #D9AD5B;
+    box-shadow: 0 0 0 3px rgba(217, 173, 91, 0.2);
+}
+
+.login_form input::placeholder {
+    color: #65758a;
+}
+
+.login_form button {
+    outline: none;
+    border: 1px solid #D9AD5B;
+    background-color: #D9AD5B;
+    padding: 12px 18px;
+    color: #142B4A;
+    border-radius: 8px;
+    width: 140px;
+    max-width: 100%;
+    margin: 5px 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.login_form button:hover {
+    background-color: #f0cc82;
+    border-color: #f0cc82;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(217, 173, 91, 0.2);
+}
+
+.login_form a {
+    color: #D9AD5B;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 5px;
+    transition: 0.2s;
+}
+
+.login_form a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login_container {
+        padding: 30px 20px;
+    }
+
+    .login_container h1 {
+        font-size: 30px;
+    }
+
+    .login_form button {
+        width: 125px;
+    }
+}
+html,
+body,
+.login_wrapper {
+    background: #142B4A !important;
+    background-image: none !important;
+}
+
+.login_container h1 {
+    color: #D9AD5B !important;
+}
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+    background: #142B4A !important;
+}
+
+.login_wrapper {
+    background: linear-gradient(135deg, #0b1729, #142B4A, #203e63) !important;
+    min-height: 100vh;
+    height: auto;
+}
+
+.login_container h1 {
+    color: #D9AD5B !important;
+}

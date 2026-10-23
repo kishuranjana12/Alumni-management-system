@@ -1,0 +1,131 @@
+
+@charset "utf-8";
+
+/* Alumni Connect - Navigation Theme */
+
+body {
+    background-color: #F5F7FA;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.table {
+    background-color: #142B4A;
+    border: none;
+    margin: 0;
+    width: 100%;
+}
+
+.ul1 {
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+.li_image {
+    background-color: #142B4A;
+    float: left;
+    list-style-type: none;
+}
+
+.li1 {
+    background-color: #142B4A;
+    float: left;
+    list-style-type: none;
+}
+
+.li1 a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.li1 a:hover {
+    background-color: #D9AD5B;
+    color: #142B4A;
+}
+
+.li2 {
+    background-color: #142B4A;
+    float: right;
+    list-style-type: none;
+}
+
+.li2 a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.li2 a:hover {
+    background-color: #D9AD5B;
+    color: #142B4A;
+}
+
+.active {
+    background-color: #29496D;
+}
+
+.span1,
+.span2 {
+    color: #D9AD5B;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 180px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-content a {
+    color: #142B4A;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #F2E4C9;
+    color: #142B4A;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.li1 a,
+.li2 a {
+    color: white !important;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.li1 a:hover,
+.li2 a:hover {
+    background-color: #B68A3A !important;
+    color: white !important;
+}
+
+.active {
+    background-color: #B68A3A !important;
+}
+

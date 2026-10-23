@@ -1,0 +1,33 @@
+
+@charset "utf-8";
+
+/* Alumni Connect - Logout Page */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    background: #142B4A;
+}
+
+.logout {
+    background: linear-gradient(135deg, #0b1729 0%, #142B4A 55%, #203e63 100%);
+    width: 100%;
+    min-height: 100vh;
+    color: #D9AD5B;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: clamp(32px, 6vw, 64px);
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
